@@ -1,0 +1,1 @@
+print("Dodatkowy plik.py")
