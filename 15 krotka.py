@@ -9,11 +9,15 @@
 
 numberNames = ("jeden", "dwa", "trzy")
 
-# Krotka zawierająca tylko jedną wartość musi zawierać przecinek po tym elemencie, co wskazuje na to,
+# Krotka zawierająca tylko jedną wartość musi zawierać przecinek po tym elemencie, 
+# co wskazuje na to,
 # że chcemy utowrzyć krotkę, a nie łańcuch znaków:
 
 fighters = ("f15",)
-print(type(fighters), "Typ fightersów")           # <class "tuple"> 
+print(type(fighters), "Typ fightersów")           # <class 'tuple'> 
+
+fighters2 = ("f15")
+print(type(fighters2), "Typ fightersów 2")        # <class 'str'> 
 
 emptyTuple = ()                 # pusta krotka musi mieć nawiasy
 
