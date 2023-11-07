@@ -1,6 +1,6 @@
 # Lekcja 75 - Przykładowy program w Python
 # ostatnia lekcja w sekcji 4
-
+# nastepna sekcja to 5
 
 """
 Kalkulator, który działa w terminalu
