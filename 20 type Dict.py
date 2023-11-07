@@ -11,21 +11,21 @@ bestComputerByYear = {
 
 bestComputerByYear[2007] = "Microsoft"
 
-print(bestComputerByYear) #{2001: 'Sony', 2002: 'IBM', 2003: 'Compaq', 2004: 'Sun', 2005: 'Sony', 2006: 'Lenovo', 2007: 'Microsoft'}
-print("To jest typ zmiennej 'bestComputerByYear'", type(bestComputerByYear)) # <class 'dict'>
-print(len(bestComputerByYear))
+print("JESTEŚMY TUTAJ 1----------------", bestComputerByYear) #{2001: 'Sony', 2002: 'IBM', 2003: 'Compaq', 2004: 'Sun', 2005: 'Sony', 2006: 'Lenovo', 2007: 'Microsoft'}
+print("JESTEŚMY TUTAJ 2----------------", "To jest typ zmiennej 'bestComputerByYear'", type(bestComputerByYear)) # <class 'dict'>
+print("JESTEŚMY TUTAJ 3----------------", len(bestComputerByYear))
 
-print(bestComputerByYear.keys ())
-print(bestComputerByYear.values ())
+print("JESTEŚMY TUTAJ 4----------------", bestComputerByYear.keys ())
+print("JESTEŚMY TUTAJ 5----------------", bestComputerByYear.values ())
 
 
 for value in bestComputerByYear.keys():
-    print("Key:", value, "Values:", bestComputerByYear[value])
+    print("JESTEŚMY TUTAJ 6----------------", "Key:", value, "Values:", bestComputerByYear[value])
 
 for key, value in bestComputerByYear.items():
-    print("Key:", key, "Values:", bestComputerByYear[key])
+    print("JESTEŚMY TUTAJ 7----------------", "Key:", key, "Values:", bestComputerByYear[key])
 
-print("0000000")
+print("JESTEŚMY TUTAJ 8----------------", "0000000")
 
 # ---------------------------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------------------------
@@ -38,13 +38,13 @@ print("0000000")
 
 # creating a new dictionary
 my_dict ={"Java":101, "Python":100, "C Sharp":11, "Kotlin": 100}
-print(my_dict)
+print("JESTEŚMY TUTAJ 8.2----------------", my_dict)
 
 # one-liner
-print("One line Code Key value: ", list(my_dict.keys())[list(my_dict.values()).index(100)])
+print("JESTEŚMY TUTAJ 9----------------", "One line Code Key value: ", list(my_dict.keys())[list(my_dict.values()).index(100)])
 
 # ---- moja autorska pętla szukająca kluczy dla jednej wartości
-print("--------------moje")
+print("JESTEŚMY TUTAJ 10----------------", )
 for value in my_dict.values():
     print("One line Code Key value: ", list(my_dict.keys())[list(my_dict.values()).index(value)])
 
