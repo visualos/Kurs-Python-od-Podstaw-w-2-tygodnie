@@ -22,4 +22,12 @@ print(krotka1[1:9:2])
 print(krotka1[2:])
 print(krotka1[:12])
 
-# Wartość minimalna krotka.min
+# Wartość minimalna 'min(tuple1)'
+print(min(krotka1))
+
+# Wartość maksymalna krotki 'max(tuple1)'
+print(max(krotka1))
+
+# Lista na krotkę tuple([list])
+list1 = [1, 2, 3, 4, 5]
+print(tuple(list1), 'lista na krotke')
