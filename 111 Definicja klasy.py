@@ -13,7 +13,8 @@ class Person:
 
 
     def displayPerson(self):
-        print('Imię ' + self.name + ', Nazwisko: ' + self.surname + ', wiek: ' + str(self.age))
+        print('Imię '+ self.name + ', Nazwisko: '+ self.surname + ', wiek: '+ str(self.age))
+        
 
 person = Person('Radek', 'Męczybuła', 14)
 person.displayPerson()
