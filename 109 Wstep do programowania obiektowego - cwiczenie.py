@@ -17,3 +17,4 @@ class Vehicle:
 opel = Vehicle("Opel", "Zafira", "blue", 2001, 1)
 opel.distanceTravelled = 1000
 opel.setMaxSpeed(145)
+opel.displayInfo()
