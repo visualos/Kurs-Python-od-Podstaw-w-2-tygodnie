@@ -1,7 +1,7 @@
 # Lekcja 122 - DocString i atrybuty w klasie
 
 # OOP w Python - definicja klasy - string dokumentujący
-
+# OOP - Object-Oriented Programming
 """
 String dokumentujący to łańcuch znaków w pierwszej linijce definicji funkcji, metody czy klasy.
 Może być pobrany za pomocą nazwy klasy oraz atrybutu __doc__

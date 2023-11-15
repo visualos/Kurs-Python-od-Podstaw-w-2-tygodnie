@@ -1,6 +1,6 @@
 # Lekcja 123 - DocString i atrybuty w klasie - ćwiczenie
 
-
+# OOP - Object-Oriented Programming
 # kodzik skopiowałem sobie elegancko od ziomeczka z Udemy
 # i lecimy z tematem
 
