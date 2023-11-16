@@ -1,6 +1,6 @@
 # Lekcja 132 - Moduły w Python.py
 
-# Po mojemu: po prostu import innych funkcji, metod, klas itd. :) Bardzo fajna rzecz
+# Po mojemu: po prostu plik.py, import innych funkcji, metod, klas itd. :) Bardzo fajna rzecz
 
 
 """

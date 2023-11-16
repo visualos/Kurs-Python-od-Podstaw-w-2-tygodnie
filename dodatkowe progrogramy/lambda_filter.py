@@ -6,6 +6,8 @@ def filter_list(l):
 
 
 
-madox = [10, 11, 12, 13 ,14 , 'radek']        
+madox = [10, 11, 12, 13 ,14 , f'radek to misztrz']        
 filter_list(madox)
+
+print(f'radek {madox} jest najlepszy')
 
